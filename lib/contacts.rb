@@ -17,7 +17,7 @@ require 'pry'
 def remove_strawberry(contacts)
   
   contacts.each do | person, contact_details_hash|
-    contact_details_hash.each do |key, variable|
+    contact_details_hash.each do |attribute, variable|
       binding.pry
     end
   end
